@@ -1,4 +1,9 @@
+from flask import Flask
+app = Flask(__name__)
 
-#main.py will be thedriver for the scraping program
+@app.route("/")
+def hello():
+  return "Hello World!"
 
-print("Driver Running")
+if __name__ == "__main__":
+  app.run()
