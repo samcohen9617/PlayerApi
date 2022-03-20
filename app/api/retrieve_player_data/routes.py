@@ -1,4 +1,4 @@
-from app.api.balldontlie.blueprint import BP
+from app.api.retrieve_player_data.blueprint import BP
 from flask import make_response
 from .controllers import get_all_current_players_stats
 
